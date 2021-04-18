@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="ThinkBridgeInventory.Masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="StyleSheet664.css" rel="stylesheet" />
+    <title>Inventory</title>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="Header" runat="server">
+        </asp:ContentPlaceHolder>
+        <div>
+
+            <!--navbar start-->
+
+            <nav class="navbar navbar-expand-lg  my-nav fixed-top">
+                
+                <!--3 line toggle button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa fa-bars"></i></span>
+                </button>
+                <!--navbar links-->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="#" id="HomeMenu" onserverclick="Home_Click" runat="server">Home <span class="sr-only">(current)</span></a>
+                        </li>                 
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" runat="server" id="Logout" onserverclick="BtAdminLogout_Click" visible="true" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- navbar end-->
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <!--footer start-->
+
+            <footer class="container-fluid myfooter fixed-bottom">
+                <div class="container pt-3 pb-3">
+                    <div class="row">
+                        <div class="col-md-4 offset-md-4" >COPYRIGHT © 2020 MTEM</div>
+
+                    </div>
+                </div>
+            </footer>
+            <!-- footer end-->
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        </div>
+    </form>
+</body>
+</html>

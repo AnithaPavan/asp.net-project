@@ -1,0 +1,9 @@
+F:\ThinkBridgeInventory\BusinessLayer\bin\Debug\BusinessLayer.dll
+F:\ThinkBridgeInventory\BusinessLayer\bin\Debug\BusinessLayer.pdb
+F:\ThinkBridgeInventory\BusinessLayer\bin\Debug\DataLayer.dll
+F:\ThinkBridgeInventory\BusinessLayer\bin\Debug\DataLayer.pdb
+F:\ThinkBridgeInventory\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+F:\ThinkBridgeInventory\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+F:\ThinkBridgeInventory\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+F:\ThinkBridgeInventory\BusinessLayer\obj\Debug\BusinessLayer.dll
+F:\ThinkBridgeInventory\BusinessLayer\obj\Debug\BusinessLayer.pdb

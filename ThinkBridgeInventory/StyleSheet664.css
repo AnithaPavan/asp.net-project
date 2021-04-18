@@ -1,0 +1,263 @@
+﻿/* CSS Document */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Gotham-Book;
+    font-weight: bold;
+}
+.loginpagebackgroung {
+    position: fixed;
+    
+    background-image: url("images/pngtree-technology-business-.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: local("Gotham Book"), local("Gotham-Book"), url(Gotham-Book.otf);    
+}
+h1 {
+    text-align: center;
+    color: #272a67;
+    font-weight: bold;
+}
+.myimglogo {   
+width: 160px;
+    height: 26px;
+    background: url("images/logo.png") no-repeat top left;
+    background-size: contain; 
+}
+/*To have space around login page*/
+#container {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 4px 20px 2px 20px;
+    position: fixed;
+}
+/*---------------------------------------------------------------------------------*/
+.loginlabel{    
+    font-size: 25px;
+    color:White;
+}
+.loginbtn {
+    font-family: Gotham;
+    background-color: #00081F;
+    color: white;
+    border: 2px solid white;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    padding: 4px 4px 4px 4px;
+}
+    .loginbtn:hover {
+        background-color: white;
+        color: black;
+        border:2px solid black;
+    }
+/*---------------------------------------------------------------------------------*/
+.generallabel {
+    /*font-family: Gotham;*/
+    font-weight:bold;
+    font-size: 25px;
+}
+.generaltextbox {
+    height: 28px;
+    width: 240px;
+    font-size: 16px;
+}
+/*-----------------------------------------HomePage-----------------------------------------------*/
+
+/*-------------------------Nav Bar----------------------------*/
+.my-nav {
+    background-color: #00081F !important; /*Color given by syntbit*/    
+}
+    .my-nav .nav-link {
+        color: #ffffff;
+        font-size: 18px;
+        padding: 10px;
+        display: inline-block;
+    }
+        .my-nav .nav-link:hover {
+            color: #be1a87;
+        }
+.mydrop {
+    background-color: #00081F !important;   
+}
+    .mydrop .dropdown-toggle {
+        color: #ffffff;
+        font-size: 18px;
+        padding: 10px;
+        display: inline-block;
+    }
+        .mydrop .dropdown-toggle:hover {
+            color: #be1a87;
+            text-decoration: none;
+        }
+.mydropmenu {
+    background-color: #00081F !important;
+}
+    .mydropmenu a {
+        padding: 7px;
+        display: inline-block;
+        color: #ffffff;
+        font-size: 18px;
+    }
+        .mydropmenu a:hover {
+            color: #be1a87;
+            text-decoration: none;
+        }
+
+/*-------------------------Footer-----------------------*/
+.myfooter {
+    background-color: gray;
+    color: white;
+    height: 35px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-family: arial, helvetica;
+    font-weight: bold;
+    font-size: 11px;
+}
+/*-------------------------3 line toggel btn------------------------------*/
+.fa-bars {
+    color: white;
+}
+/*------------------------All the buttons--------------------------------- */
+.submitbtn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    height:45px;
+    width:150px;
+    font-size: 18px;
+    padding:4px 4px 4px 4px;
+}
+    .submitbtn:hover {
+        background-color: black;
+        color: white;
+    }
+/*-----------------------------Asset Management Home Page-------------------------------*/
+
+.mymainbtn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    Font-Size: Larger;
+    Height: 48px;
+    Width: 260px;
+}
+
+    .mymainbtn:hover {
+        background-color: black;
+        color: white;
+    }
+/*-------------------------NewBarCode Page-------------------------*/
+.mybigbtn {
+    font: bold 12px aarial large;
+    background-color: white;
+    color: black;
+    font-family: Gotham;
+    border: 1px solid black;
+    Height: 40px;
+    Width: 585px;
+    Font-Size: Larger;
+}
+    .mybigbtn:hover {
+        background-color: black;
+        color: white;
+    }
+/*-----------------------------form-----------------------------------*/
+#form {
+    margin: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 500px;
+    padding: 5px 40px 40px 40px;
+    border-radius: 5px;
+    border:2px solid #aaa8aa;
+}
+.formheading {
+    color:#272a67;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom-style:ridge;
+}
+.formtextbox {
+    height: 35px;
+}
+.formdropdowntext {
+    height: 30px;
+}
+.formtextboxlabel {
+    font-size: 16px;
+    color:#373934;
+    font-weight: bold;
+}
+.myformbtn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100%
+}
+    .myformbtn:hover {
+        background-color: black;
+        color: white;
+    }
+/*------------------FilterQuery-------------------*/
+.filterQuery td {
+    padding: 7px 8px;
+    text-align: left;
+}
+/*------------------------------Grid Table-------------------------------------- */
+.grid {
+    border-color: #002147;
+    background-color: white;
+}
+.grid td{
+    padding:7px 8px;
+    text-align:center;
+}
+    .grid th {
+        padding: 7px 8px;
+        text-align: center;
+    }
+.HeaderStyle {
+    background-color: #272a67;
+    border: 2px solid #aaa8aa;
+    color: white;
+}
+.PagerStyle {
+    background-color: white;
+}
+.RowStyle {
+    font: #272a67;
+    border: 2px solid #aaa8aa;
+}
+.SortedAscendingCellStyle {
+    background-color: white;
+}
+.SortedAscendingHeaderStyle {
+    background-color: white;
+}
+.SortedDescendingCellStyle {
+    background-color: white;
+}
+.SortedDescendingHeaderStyle {
+    background-color: white;
+}
+.button5 {
+    background-color: mediumvioletred;
+    border-radius: 50%;
+}
+.button3 {
+    width: 100px;
+    background-color: #272a67;
+    border-radius: 8px;
+}
